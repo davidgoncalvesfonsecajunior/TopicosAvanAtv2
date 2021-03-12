@@ -42,8 +42,8 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.efeito{
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
+.img-rotulo:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }

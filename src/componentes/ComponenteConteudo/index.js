@@ -3,7 +3,7 @@ import './index.css';
 const ComponenteConteudo = (props) => {
   return (
     <>
-      <img className="img-rotulo efeito" src={props.img} />
+      <img className="img-rotulo" src={props.img} />
 
       <div className="texto">
         <hr />
