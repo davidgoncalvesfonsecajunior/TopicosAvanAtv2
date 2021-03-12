@@ -7,8 +7,14 @@
   display: flex;
   border: 5px;
   border-end-end-radius: 5px;
-  
+  box-shadow:
+                1px 1px #d2d9df,
+                2px 2px #d3d6da,
+                3px 3px #a8abad;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(5px);
 }
+
 .texto {
   background-color: rgb(59, 76, 150);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,4 +40,10 @@ p {
 .container{
   color:rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.efeito{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
 }
