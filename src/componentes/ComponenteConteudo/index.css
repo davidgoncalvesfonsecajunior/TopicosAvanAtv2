@@ -1,17 +1,37 @@
+
 .img-rotulo {
   display: flex;
   margin: 10px;
   height: 150px;
   width: 250px;
   display: flex;
-  border: 1px;
+  border: 5px;
+  border-end-end-radius: 5px;
+  
 }
 .texto {
-  background-color: cyan;
+  background-color: rgb(59, 76, 150);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 400px;
   margin-top: -150px;
   margin-bottom: 50px;
 }
+
 p {
   font-weight: bold;
+}
+
+.pb {
+  background-color: rgb(251, 195, 41);
+}
+
+.titulo {
+  background-color: rgb(224, 28, 47);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(255, 255, 255);
+}
+
+.container{
+  color:rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
